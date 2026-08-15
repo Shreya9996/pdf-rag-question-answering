@@ -1,6 +1,4 @@
-# Mistral RAG PDF Agent
-
-A **Retrieval-Augmented Generation (RAG) based PDF Question Answering application** built using **LangChain, Mistral AI, ChromaDB, and Python**.
+**Retrieval-Augmented Generation (RAG) based PDF Question Answering application** built using **LangChain, Mistral AI, ChromaDB, and Python**.
 
 The application loads information from a PDF document, splits it into smaller chunks, converts those chunks into vector embeddings, stores them in ChromaDB, and retrieves the most relevant information whenever the user asks a question. The retrieved context is then provided to a Mistral LLM to generate a relevant and document-grounded answer.
 
@@ -164,6 +162,12 @@ Retrieved Context + User Question
 ```
 
 ---
+<img width="1365" height="665" alt="image" src="https://github.com/user-attachments/assets/85cec0f3-3d7b-4f19-9bbf-d782ed070631" />
+
+
+<img width="1354" height="625" alt="image" src="https://github.com/user-attachments/assets/ac71dbe7-cc18-49fa-9fca-e92f828b732d" />
+
+
 
 ## 🔑 Environment Variables
 
